@@ -17,7 +17,7 @@ The Test
 (if I ask you to commit changes, feel free to use whatever commit message you choose)
 
 1. fork the following repos into your own github account
-	* gitproficiency_a, gitproficiency_b, gitproficiency_c, gitproficiency_d
+	* gitproficiency_a, gitproficiency_b
 	* from git@github.com:kleetus
 
 	discussion: this tests the ability to fork a github repo
@@ -31,7 +31,7 @@ The Test
 	* commit this change back
 	* push this commit to your forked repo of gitproficiency_a
 
-	discussion: this tests the ability to perform a commit and a push to another external repo.
+	discussion: this tests the ability to perform a commit and a push to external repo.
 
 4. send a pull request to github name "kleetus" for gitproficiency_a for your fork
 
@@ -46,7 +46,8 @@ The Test
 	discussion: this tests the ability to create a remote branch locally and also remotely
 
 
-6. Resetting a branch to be exactly like the HEAD of the same branch in origin
+6. Reset a branch to be exactly like the HEAD of the same branch in origin
+	* make a small commit to the master branch of gitproficiency_a
 	* use git-reset and possibly some options with that command to make your branch have no differences with origin/master
 	* you may need to use git-clean for convenience as well to remove any stray untracked files.
 
