@@ -94,12 +94,12 @@ The Test
 	discussion: this tests the ability to see what commits are different between branches and also tests the ability to generate a patch file. Also, it shows what the diff looks like.
 
 5. Applying a patch file to a code base.
-	* apply the patch file to the master branch
-	* check git status
-	* review your changes and stage them
-	* commit but do not push the changes to the master branch's origin
+	* check out your test_branch branch
+	* make a small commit to it
+	* generate a patch against the master branch. You will, ultimately, be applying this patch to the master branch
+	* Apply the patch to the master branch (effectively making the master and test_branch the same). Be sure to "sign off" on the patch application process.
 
-	discussion: this tests the ability to apply a patch to a code base and then be able to stage and commit the changes
+	discussion: this tests the ability to apply a patch to a code base if whatever reason some one emails you a patch file.
 
 6. Amending a commit
 	* make a change in the code base and commit the change (do not push).
